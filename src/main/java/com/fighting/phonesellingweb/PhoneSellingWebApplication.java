@@ -61,6 +61,7 @@ public class PhoneSellingWebApplication {
         phoneService.createPhone(new Phone("Phone 8", "Description 8", 950.0, "Gray", "4GB/128GB", "iOS", "A11 Bionic", "6.2-inch", "8MP", "3000mAh", "", brandService.findBrandById(1)));
         phoneService.createPhone(new Phone("Phone 9", "Description 9", 1000.0, "Black", "6GB/128GB", "Android", "Exynos 990", "6.3-inch", "12MP", "3200mAh", "", brandService.findBrandById(1)));
         phoneService.createPhone(new Phone("Phone 10", "Description 10", 1200.0, "White", "8GB/128GB", "iOS", "A10 Fusion", "6.0-inch", "16MP", "3500mAh", "", brandService.findBrandById(1)));
+
     }
 
 }
